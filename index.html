@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BS</title>
+	<link href="http://fonts.googleapis.com/earlyaccess/notosanskr.css?family=Gothic+A1" rel="stylesheet"> 
+	<link rel="stylesheet" href="font.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css"> 
+
+	<style>
+		* {margin: 0; padding: 0;}
+		body{font-family: 'Noto Sans KR', sans-serif; background:white;}
+		p{ position: relative; width:1400px; }
+
+		h1{ font-size:1.7em; position: absolute; line-height: 1.5;  font-weight:900;}
+		div{margin:auto; position:relative; width:1400px;}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+		a:link, a:active, a:visited {text-decoration: none; color:black;}
+		ul, ol, li {list-style: none;}
+		#contents1 nav { width:1400px;   height:180px; position:absolute; top:715px; left:190px;  }
+		
+		#title { position:relative; text-align:center; top:50px; left:-25px; font-weight: bold; font-size:2.5em;  }
+		
+		
+		nav #logo {width:180px; height:50px; text-align: center; margin-bottom: 20px; font-size: 1.4em; }
+		nav #main li {  margin-top:5px; margin-bottom:5px;  width:250px; height: 50px; line-height:50px; text-align: center; float: left; list-style: none; font-size:1.2em;}
+		
+		nav #main a { display: block; color:white; }
+		nav #main a:hover { display: block; font-weight:900;} 
+
+		
+
+
+		
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+		.wrap{ width:1400px; margin:auto; position: relative; }
+
+		#contents1 { background: url('./img/4.jpg') no-repeat 50% 50%; background-size:100%  margin:0 auto; height:7970px; }
+	
+
+		#contents1 #h1 {top:900px; left:385px; font-size:2.6em; line-height: 1.4; font-weight: 400; letter-spacing: 0.7px; }
+		#contents1 #h2 {top:940px; left:380px; font-size:4.8em; line-height: 1.4; font-weight: 700; letter-spacing: 2px;}
+		
+		
+
+		#contents1 #h4 {top:230px; left:575px; font-size:2.5em; line-height: 1.4; font-weight: 400;  }
+		#contents1 #h5 {top:275px; left:430px; font-size:4.6em; line-height: 1.4; font-weight: 900;  }
+		#contents1 #h6 {top:350px; left:600px; font-size:1.2em; line-height: 1.4; font-weight: 500;  }
+		
+		#contents1 #p1 {top:1200px;  font-size:1.1em; line-height: 2.3; font-weight: 400; text-align:center;}
+		
+		#contents1 #h3 {top:1525px; left:793px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p4 {top:1185px; left:795px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p5 {top:1205px; left:795px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h4 {top:2085px; left:255px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p2 {top:2080px; left:255px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p3 {top:2100px; left:255px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h6 {top:3280px; left:265px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p6 {top:2430px; left:265px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p7 {top:2450px; left:265px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h5 {top:2665px; left:800px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p8 {top:2080px; left:800px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p9 {top:2100px; left:800px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h7 {top:3875px; left:793px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p10 {top:2745px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p11 {top:2765px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h8 {top:4590px; left:250px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p12 {top:3210px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p13 {top:3230px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h9 {top:5230px; left:793px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p14 {top:3520px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p15 {top:3540px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h10 {top:5885px; left:250px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p16 {top:3925px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p17 {top:3945px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h11 {top:6535px; left:793px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p18 {top:4250px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p19 {top:4270px; left:793px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+		#contents1 #h12 {top:7215px; left:250px; font-size:2.7em; line-height: 1.4; font-weight: 700;  }
+		#contents1 #p20 {top:4650px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 700; }
+		#contents1 #p21 {top:4670px; left:250px; font-size:1.1em; line-height: 2.1; font-weight: 400; }
+
+	
+
+
+
+
+
+
+		#contents1 #h13 {top:7865px; left:630px; font-size:1.3em; line-height: 1.4; font-weight: 400; color:#f2a338; text-align:center; }
+		#contents1 #h14 {top:7880px; left:540px; font-size:2.7em; line-height: 1.4; font-weight: 700; color:#f2a338; text-align:center;}
+		
+		.clear{clear:both;}
+	
+	</style>	
+</head>
+
+<body>
+	<header class="top">
+		<div class="wrap" id="sp1">
+			
+		</div>
+	</header>
+		
+	<section id="contents1">
+		<div class="wrap" id="contents1">
+
+		<nav>
+			
+
+			
+			<ul id="main">
+
+				<li>
+					<a href="https://coral735.github.io/bs1/">빵은 먹고다니니?</a>
+				</li>
+				
+				<li>
+					<a href="https://coral735.github.io/bs2/">빵집의 트렌드</a>
+				</li>
+
+				<li>
+					<a href="https://coral735.github.io/bs3/">세계의 빵</a>
+				</li>
+
+				<li>
+					<a href="https://coral735.github.io/bs4/">전국의 빵집</a>
+				</li>
+
+
+		</nav>
+			
+			<h1 id="h1">맛있는 <b>빵</b>, 전국의 <b>명가</b>에서 만나다.</h1>
+			<h1 id="h2">전국의 소문난 빵집</h1>
+
+		
+			<p id="p1">
+				빵이라면 자다가도 벌떡 일어나는 '빵순이' '빵돌이'.<br>
+				맛있기로 소문난 빵을 먹기 위해 먼 거리와 오랜 시간을 기다리는 수고도 마다치 않는 그들을 위해 <br>
+				오랜 역사와 지금까지도 변함없는 맛을 자랑하는 전국의 유서 깊은 빵집들을 소개한다.
+ 			</p>
+			
+			<h1 id="h4">쉐프조</h1>
+			<p id="p2">
+				[위치]  서울 영등포구 문래동<br> 
+				[운영시간] 월-토: 08:00 - 23:00 <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일: 08:00 - 22:00<br>
+				[대표메뉴]  각종 케이크
+ 			</p>
+
+ 			<p id="p3">
+				케이크의 4대천왕의로 꼽히는 이곳의 <br>
+				케이크는 남녀노소 부담없이 먹을수 있도록<br>
+				자극적인 단맛을 없애고 부드럽고 신선한 <br>
+				맛이 가득 채워 넣어져있다.<br>
+				가격은 4,800 - 6,000원
+ 			</p>
+
+ 			<h1 id="h3">나폴레옹 제과</h1>
+			<p id="p4">
+				[위치]  서울 성북구 성북로<br>
+				[운영시간]  매일 8:00 - 	21:30 연중무휴<br>
+				[대표메뉴]  사라다빵
+ 			</p>
+
+ 			<p id="p5">
+				나폴레옹 제과의 대표메뉴로 자리잡은 메뉴.<br>
+				감자와 야채샐러드, 마요네즈가 삐져나올만큼<br>
+				풍성히 들어간, 큼직하고 묵직한 사라다빵.<br>
+				가격은 5,500원
+ 			</p>	
+
+ 			<h1 id="h5">쁠로13</h1>
+ 			<p id="p8">
+				[위치]  서울 강남구 논현동 <br>
+				[운영시간] 평일 09:00 - 22:00일요일 휴무<br>
+				[대표메뉴]  크로와상
+ 			</p>
+
+ 			<p id="p9">
+				겉은 바삭하면서 속은 촉촉하게,<br>
+				얇은 겹들이 겹겹이 쌓여 부드러운<br>
+				고소한 버터와 함께맛을 자랑한다. <br>
+				가격은 3,200원
+ 			</p>	
+ 			 <h1 id="h6">베이커스</h1>
+	 			 <p id="p6">
+					[위치]  서울 용산구 한남동 <br>
+					[운영시간] 월-토 :10:00 - 21:00<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;일 :10:00 - 20:00<br>
+					[대표메뉴]  발효종 유럽빵
+	 			</p>
+
+	 			<p id="p7">
+					천연 발효종을 이용해 풍미를 살리고,<br>
+					모두 호밀을 이용해, 고소하고 담백한<br>
+					건강에 좋은 정통 유럽빵 스타일.<br>
+					가격은 3,200-6,500원
+	 			</p>
+
+	 		<h1 id="h7">맘모스 제과</h1>
+	 			 <p id="p10">
+					[위치]  경북 안동시 문화광장길<br>
+					[운영시간] 평일 08:30 - 22:00<br>
+					[대표메뉴]  크림치즈빵
+	 			</p>
+
+	 			<p id="p11">
+					맘모스제과의 스테디셀러는 크림치즈빵이다.<br>
+					적당히 도톰하고 폭신한 빵에 고소한 크림치즈가<br> 
+					가득한, 말 그대로 하얀 빵의 정석이라 할 수 있다.<br>
+					가격은 2,300원
+	 			</p>
+
+	 			<h1 id="h8">코롬방 제과</h1>
+	 			 <p id="p12">
+					[위치]  전라남도 목포시 목원동<br>
+					[운영시간] 매일 :08:00 - 22:00<br>
+					[대표메뉴]  크림치즈바게트<br>
+	 			</p>
+
+	 			<p id="p13">
+						층층이 칼집을 낸 바게트 사이사이에는 <br>
+						크림치즈가 듬뿍 듬뿍 발려있다.<br>
+						한입 가득 베어 물면 먼저 바삭한 바게트<br> 
+						빵 식감에 반하고, 담백하고 쫄깃한 빵과 <br>
+						어우러지는 부드러운 크림치즈가 일품<br>
+						가격은 5,000원
+	 			</p>
+
+	 			<h1 id="h9">이성당</h1>
+	 			 <p id="p14">
+					[위치]  전라북도 군산시 월명동<br>
+					[운영시간] 매일 08:00 - 22:00<br>
+					[대표메뉴]  단팥빵<br>
+	 			</p>
+
+	 			<p id="p15">
+					단팥빵은 어디서나 먹을 수 있다고 생각하지만<br>
+					유명한 빵집의 단팥빵은 속내부터가 다르다.<br>
+					속에 가득한 달콤한 팥앙금과 쌀가루로 반죽해<br>
+					만든 피가 어우러져 환상적인 맛을 선사한다.<br>
+					가격은 1,300원<br>
+	 			</p>
+
+	 			<h1 id="h10">풍년 제과</h1>
+	 			 <p id="p16">
+					[위치]  전라북도 전주시 완산구<br>
+					[운영시간] 매일 :08:00 - 22:30<br>
+					[대표메뉴]  초코파이<br>
+	 			</p>
+
+	 			<p id="p17">
+					100% 국내산 우리밀로 만든 빵 안에 버터크림과 <br>
+					딸기잼이 어우러져 있으며, 겉은 달콤한 초콜릿이<br>
+					감싸고있다. 3대째 이어져 오고있는 명가의 수제<br>
+					초코파이를 먹기위해 전국에서 찾아온다.<br>
+					가격은 1,600원<br>
+	 			</p>
+
+	 			<h1 id="h11">양인 제과</h1>
+	 			 <p id="p18">
+					[위치]  광주광역시 남구 양림동<br>
+					[운영시간] 매일 08:00 - 21:00<br>
+					[대표메뉴]  초코팡<br>
+	 			</p>
+
+	 			<p id="p19">
+					외국인 부부 쉐프가 운영하는 양인제과에서는<br>
+					초코팡이 가장 유명하다. 유기농 밀가루로 만든 <br>
+					반죽에 반으로 가르면 안에 달콤한 초코 시럽이<br>
+					흘러넘칠 정도로 가득하다.<br>
+					가격은 5,000원
+	 			</p>
+
+	 			<h1 id="h12">궁전 제과</h1>
+	 			 <p id="p20">
+					[위치]  광주광역시 동구 충장로<br>
+					[운영시간] 매일 :10:00 - 21:30<br>
+					[대표메뉴] 공룡알빵<br>
+	 			</p>
+
+	 			<p id="p21">
+					40여년 역사의 광주 대표 빵집이다. 공룡알빵은 <br>
+					바게트의 속을 파낸 뒤 감자 달걀 등이 버무려진 <br>
+					샐러드를 꽉 채워놓은 빵이다. 외양이 공룡알을 <br>
+					닮았다고 해 이름이 붙었다.<br>
+					가격은 2,500원
+	 			</p>
+
+ 			<h1 id="h13">거기 배고픈 너,</h>
+			<h1 id="h14">빵은 먹고 다니니?</h>	
+
+
+		</div>
+	</section>
+
+	
+	<footer>
+		<div class="wrap" id="sp8">
+
+		</div>
+	</footer>
+
+
+
+</body>
